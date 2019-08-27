@@ -39,6 +39,7 @@ services:
     image: "confluentinc/ksql-examples:5.3.0"
     networks:
       - ksql-net
+    restart: always
     command: "bash -c 'echo Waiting for Kafka to be ready... && \
                        cub kafka-ready -b kafka:9092 1 20 && \
                        echo Waiting for Confluent Schema Registry to be ready... && \
@@ -61,6 +62,7 @@ services:
     image: "confluentinc/ksql-examples:5.3.0"
     networks:
       - ksql-net
+    restart: always
     command: "bash -c 'echo Waiting for Kafka to be ready... && \
                        cub kafka-ready -b kafka:9092 1 20 && \
                        echo Waiting for Confluent Schema Registry to be ready... && \
