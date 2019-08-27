@@ -1,0 +1,7 @@
+= Confluent Apache Kafka® Tutorial
+
+This repo contains the source accompanying the *Kafka Tutorial* by the Confluent Training Team.
+
+Current Software version: CP `5.3.0`, AK `2.3.0`
+
+Please visit us at: https://confluent.io/training
